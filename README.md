@@ -1,13 +1,13 @@
 # Demo-blog
 
-A demo Blog website using Express, Bootstrap, Cloudinary
+A demo Blog website using Express, Bootstrap, Handlebars, Cloudinary, PostgreSQL with Sequelize (Blog Data)
 
 # Current Feature
 
-- Interface of main page ('/about'), add post page
-- Retrieve and display local JSON data
+- Interface using Handlebars
+- Retrieve and display blog data using Sequelize (online SQL database)
 - Retrieve post data by id, category, date
 
 # Comming Up Feature
 
-- Adding interface for the rest page using Handlebars
+- Adding login feature with encrypted password using MongoDB
