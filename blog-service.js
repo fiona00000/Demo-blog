@@ -39,7 +39,7 @@ const initialize = () => {
                 resolve("Sync success!")
             })
             .catch((err) => {
-                reject(err, "unable to sync the database");
+                reject("unable to sync the database");
             })
     });
 }

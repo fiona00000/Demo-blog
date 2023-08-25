@@ -7,7 +7,9 @@ A demo Blog website using Express, Bootstrap, Handlebars, Cloudinary, PostgreSQL
 - Interface using Handlebars
 - Retrieve and display blog data using Sequelize (online SQL database)
 - Retrieve post data by id, category, date
+- Login feature with encrypted password using MongoDB
 
 # Comming Up Feature
 
-- Adding login feature with encrypted password using MongoDB
+- Improving the file structure
+- Adding modol
