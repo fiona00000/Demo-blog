@@ -90,7 +90,7 @@ app.use(express.static("static"))
 
 app.use(clientSessions({
   cookieName: "session",
-  secret: 'testing$%^&^testing87789Session',
+  secret: process.env.CLIENT_SESSION_SECRET,
   duration: 2 * 60 * 1000,
   activeDuration: 1000 * 60
 }))
